@@ -14,8 +14,8 @@ setInterval(function () {
     var _dia = _hora * 24;
 
     var atual = new Date();
-    var ultimoAcidente = new Date('06/09/2021'); // MM/DD/YYYY HH:MM:SS
-    var recordeMaximo = 147;
+    var ultimoAcidente = new Date('10/13/2022'); // MM/DD/YYYY HH:MM:SS
+    var recordeMaximo = 0;
 
     var diferenca = atual - ultimoAcidente;
     var diasSemAcidentes = Math.floor(diferenca / _dia);
