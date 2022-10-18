@@ -15,7 +15,7 @@ setInterval(function () {
 
     var atual = new Date();
 
-    var ultimoAcidente = new Date('10/13/2022'); // MM/DD/YYYY HH:MM:SS
+    var ultimoAcidente = new Date('10/18/2022'); // MM/DD/YYYY HH:MM:SS
 
     var recordeMaximo = 0;
 
