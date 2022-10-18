@@ -32,7 +32,7 @@ setInterval(function () {
     }
 
     document.getElementById("face").innerHTML = face;
-    document.getElementById('contador').innerHTML = '<b>ESTAMOS TRABALHANDO HÁ <u>' + diasSemAcidentes + '</u> DIA(S) SEM ACIDENTES.</b>';
+    document.getElementById('contador').innerHTML = '<b>ESTAMOS TRABALHANDO HÁ <u>' + diasSemAcidentes + '</u> DIA(S) SEM INCIDENTES.</b>';
     document.getElementById('contadorRecorde').innerHTML = '<b>NOSSO RECORDE É DE <u>' + recordeMaximo + '</u> DIA(S).</b>';
 
 }, 1000);
